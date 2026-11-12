@@ -1,6 +1,5 @@
 /vendor
 /node_modules
-/resources/dist
 .phpunit.result.cache
 .DS_Store
 Thumbs.db
