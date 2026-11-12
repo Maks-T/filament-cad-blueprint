@@ -1,0 +1,31 @@
+{
+    "name": "maxim-tsatsura/filament-cad-blueprint",
+    "description": "2D CAD blueprint viewer and editor integration for Filament 5",
+    "keywords": ["laravel", "filament", "filament-plugin", "cad", "blueprint", "dxf", "svg", "gost"],
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Maxim Tsatsura",
+            "email": "maxim.tsatsura@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0 || ^5.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaximTsatsura\\FilamentCadBlueprint\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MaximTsatsura\\FilamentCadBlueprint\\CadBlueprintServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
